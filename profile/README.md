@@ -13,46 +13,6 @@ DriftKit is not just another library for calling LLMs. It's a full-fledged, prod
 - **Hot-Swappable Models**: Switch AI models (e.g., GPT-4o to Claude 3) via configuration, without changing code or recompiling your application.
 - **Built-in Audio Processing**: Ready-to-use components for voice processing, including VAD (Voice Activity Detection), streaming transcription, and workflow integration.
 
-## 🏁 Quick Start
-
-Add the dependency to your `pom.xml`:
-
-```
-<dependency>
-    <groupId>ai.driftkit</groupId>
-    <artifactId>driftkit-framework</artifactId>
-    <version>0.5.0</version>
-</dependency>
-
-```
-
-Create a minimal configuration in `src/main/resources/application.yml`:
-
-```
-driftkit:
-  vault:
-    - name: "primary"
-      type: "openai"
-      apiKey: "${OPENAI_API_KEY}" # Use environment variables for keys
-      model: "gpt-4o-mini"
-```
-
-Run your application:
-
-```
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-@SpringBootApplication
-public class MyAiApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(MyAiApplication.class, args);
-    }
-}
-```
-
-Done! You can now inject DriftKit components into your services. To access the visual prompt editor, navigate to `http://localhost:8080/prompt-engineering`.
-
 ## 🧩 Framework Modules
 
 DriftKit has a modular architecture. You can include the entire framework or add specific components to solve particular tasks.
