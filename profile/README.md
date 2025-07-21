@@ -8,7 +8,7 @@ DriftKit is not just another library for calling LLMs. It's a full-fledged, prod
 
 ### Framework comparison
 
-| Feature | DriftKit                                                                         | Spring AI                       | LangChain4j                     | [Google ADK](https://github.com/google/adk-java) |
+| Feature | DriftKit                                                                         | Spring AI                       | LangChain4j                     | Google ADK |
 |---------|----------------------------------------------------------------------------------|---------------------------------|---------------------------------|-------------------------------------------------|
 | **Text embedding** | ✅ Multiple providers                                                             | ✅ Multiple providers            | ✅ Multiple providers            | ❌                            |
 | **Vector storage** | ✅ In-memory, File, Pinecone                                                      | ✅ In-memory, Chroma, PGVector etc | ✅ In-memory, Pinecone, Chroma etc | ❌                                               |
@@ -29,10 +29,10 @@ DriftKit is not just another library for calling LLMs. It's a full-fledged, prod
 
 ## 💼 Business Solutions
 
-With DriftKit, you can build complex enterprise solutions, from customer support automation and financial document processing to recommendation engines and HR automation. You can find detailed examples and architectural patterns in the [**`driftkit-workflows-examples`**]([https://github.com/driftkit-ai](https://github.com/driftkit-ai/driftkit-framework/driftkit-workflows-examples/README.md)) module.
+With DriftKit, you can build complex enterprise solutions, from customer support automation and financial document processing to recommendation engines and HR automation. You can find detailed examples and architectural patterns in the [**`driftkit-workflows-examples`**](https://github.com/driftkit-ai/driftkit-framework/driftkit-workflows-examples/README.md) module.
 
 ## 📄 License
 
-This project is licensed under the **Apache License 2.0**. See the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
+This project is licensed under the **Apache License 2.0**. See the [LICENSE](https://github.com/driftkit-ai/driftkit-framework/blob/main/LICENSE) file for details.
 
 This license allows you to freely use DriftKit in your commercial and non-commercial products.
