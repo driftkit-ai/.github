@@ -29,7 +29,7 @@ DriftKit is not just another library for calling LLMs. It's a full-fledged, prod
 
 ## 💼 Business Solutions
 
-With DriftKit, you can build complex enterprise solutions, from customer support automation and financial document processing to recommendation engines and HR automation. You can find detailed examples and architectural patterns in the [**`driftkit-workflows-examples`**]([https://github.com/driftkit-ai](https://github.com/driftkit-ai/driftkit-framework/driftkit-workflows-examples/README.md) module.
+With DriftKit, you can build complex enterprise solutions, from customer support automation and financial document processing to recommendation engines and HR automation. You can find detailed examples and architectural patterns in the [**`driftkit-workflows-examples`**]([https://github.com/driftkit-ai](https://github.com/driftkit-ai/driftkit-framework/driftkit-workflows-examples/README.md)) module.
 
 ## 📄 License
 
